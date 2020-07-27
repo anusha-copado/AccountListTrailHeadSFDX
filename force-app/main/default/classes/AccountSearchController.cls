@@ -12,7 +12,7 @@ public with sharing class AccountSearchController {
                     ORDER BY Name
                     LIMIT 10
                 )
-            ];
+            ];/*tstomg*/
             accounts = searchResults[0];
         }
         return accounts;
